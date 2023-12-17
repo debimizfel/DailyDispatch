@@ -1,4 +1,4 @@
-import Home from '../../Pages/Home/Home';
+import Routing from '../../Pages/Routing/Routing';
 import Header from '../Header/Header';
 import './App.css';
 import "@picocss/pico"
@@ -8,10 +8,13 @@ function App(): JSX.Element {
         <div className="App">
             <header>
                 <Header />
-             </header>
-            <body>
+            </header>
 
-            </body>
+            <main>
+                <Routing />
+            </main>
+
+
         </div>
     );
 }

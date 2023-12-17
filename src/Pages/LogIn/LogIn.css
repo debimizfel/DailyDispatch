@@ -1,3 +1,15 @@
 .LogIn {
+    & h1 {
+        margin-bottom: 20px;
+        text-shadow: none;
+    }
 
+    & article {
+        margin: auto;
+        padding: 20px;
+        width: 50%;
+
+    }
+
+    
 }

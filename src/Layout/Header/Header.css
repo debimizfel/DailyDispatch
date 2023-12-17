@@ -1,1 +1,13 @@
-.Header {}
+.Header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+
+    & li, & a{
+        color: white;
+    }
+
+    & li:hover, & a:hover{
+        color: #9c293f;
+    }
+}

@@ -1,3 +1,14 @@
 .SignUp {
 
+   & h1 {
+      margin-bottom: 20px;
+      text-shadow: none;
+  }
+
+   & article {
+      padding: 20px;
+      width: 50%;
+      margin: auto;
+      
+   }
 }

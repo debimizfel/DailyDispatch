@@ -1,0 +1,8 @@
+.LinkButton {
+    & > a {
+        padding-inline: 30px;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+}
+
